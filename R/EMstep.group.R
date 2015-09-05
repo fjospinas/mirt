@@ -1,5 +1,6 @@
 EM.group <- function(pars, constrain, Ls, Data, PrepList, list, Theta, DERIV, solnp_args, control)
 {
+  extract_pars <<- pars
     verbose <- list$verbose
     lrPars <- list$lrPars
     nfact <- list$nfact
